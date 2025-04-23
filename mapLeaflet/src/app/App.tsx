@@ -8,7 +8,7 @@ const App: React.FC = () => {
     return (
         <div className={styles.app}>
             <header className={styles.header}>
-                <h1>🗺️ Cartographic-app</h1>
+                <h1>🗺️ Cartographic-app (Leaflet)</h1>
             </header>
             <main className={styles.main}>
                 <Provider store={store}>
