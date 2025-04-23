@@ -6,7 +6,7 @@ const MapContainer: React.FC = () => {
     return (
         <YMaps
             query={{
-                apikey: "fc8e3a37-cfc8-40f2-b4be-c8928aa01d9c",
+                apikey: process.env.YANDEX_MAPS_API_KEY,
                 lang: "ru_RU",
                 load: "package.full",
             }}
