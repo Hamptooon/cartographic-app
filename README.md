@@ -23,7 +23,7 @@
 1. Клонировать репозиторий:
 
 ```bash
-git clone https://github.com/your-username/route-visualizer.git
+git clone https://github.com/Hamptooon/route-visualizer.git
 ```
 
 2. Установить зависимости:
