@@ -1,4 +1,5 @@
 import { Coordinate } from "@/types";
+
 export const generateRandomCoordinates = (
     centerLat: number,
     centerLng: number,

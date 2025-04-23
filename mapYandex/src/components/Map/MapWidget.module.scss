@@ -1,0 +1,84 @@
+.container {
+    padding: 15px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    border: 4px dashed #7777772a;
+}
+.coordinateInputs {
+    display: flex;
+    gap: 10px;
+}
+.mapContainer {
+    height: 600px;
+    width: 100%;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    border: 2px solid #313131;
+    margin-top: 1.5rem;
+
+    ymaps[class*="map"] {
+        border-radius: 1rem !important;
+    }
+}
+
+.controls {
+    margin: 1.5rem 0;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    button {
+        padding: 0.75rem 1.5rem;
+        background-color: #6366f1;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.95rem;
+
+        &:hover {
+            background-color: #4f46e5;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px -1px rgba(99, 102, 241, 0.3);
+        }
+
+        &:active {
+            transform: translateY(0);
+        }
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+        }
+    }
+}
+
+.routeInfo {
+    background-color: #353535;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    margin-top: 1.5rem;
+    border: 2px solid #505050;
+
+    h3 {
+        color: #f8fafc;
+        margin-top: 0;
+        margin-bottom: 0.75rem;
+        font-size: 1.1rem;
+    }
+
+    p {
+        color: #b4b4b4;
+        margin: 0.5rem 0;
+        font-size: 0.95rem;
+    }
+}

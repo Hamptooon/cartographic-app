@@ -13,6 +13,7 @@
     "license": "ISC",
     "description": "",
     "devDependencies": {
+        "@types/leaflet": "^1.9.17",
         "@types/node": "^22.14.1",
         "@types/react": "^19.1.2",
         "@types/react-dom": "^19.1.2",
@@ -33,10 +34,10 @@
         "webpack-dev-server": "^5.2.1"
     },
     "dependencies": {
+        "@pbe/react-yandex-maps": "^1.2.5",
         "@reduxjs/toolkit": "^2.7.0",
-        "chart.js": "^4.4.9",
+        "leaflet": "^1.9.4",
         "react": "^19.1.0",
-        "react-chartjs-2": "^5.3.0",
         "react-dom": "^19.1.0",
         "react-redux": "^9.2.0",
         "react-router-dom": "^7.5.1"
